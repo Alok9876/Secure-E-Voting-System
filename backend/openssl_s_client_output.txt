@@ -1,0 +1,10 @@
+﻿openssl.exe : 48490000:error:10080002:BIO routines:BIO_lookup_ex:system 
+lib:crypto\bio\bio_addr.c:767:No such host is known. 
+At D:\VS CODE\secure-evoting\backend\run_openssl_test.ps1:16 char:3
++   & $found s_client -connect secureevoting.3almt4h.mongodb.net:27017  ...
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (48490000:error:...host is known.  
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+connect:errno=11001
